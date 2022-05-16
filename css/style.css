@@ -1,60 +1,97 @@
-/*generics*/
+    /*generics*/
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-.container {
-    margin: 0 auto;
-    width: 1200px;
-}
+    .container {
+        margin: 0 auto;
+        width: 1200px;
+    }
 
-/*utility*/
+    body {
+        font-family: sans-serif;
+    }
 
-:root {
-    --blue: #3161E0;
-    --grey: grey;
-    --section-spacing-top-bottom: 120px;
-}
+    /*utility*/
 
-.flex {
-    display: flex;
-}
+    :root {
+        --blue: #3161E0;
+        --grey: grey;
+        --section-spacing-top-bottom: 120px 0;
+    }
 
-/*header row section*/
+    .flex-container {
+        display: flex;
+    }
 
-.header-background {
-    background-color: #3161E0;
-    min-height: 400px;
-}
+    /*header row section*/
 
-.header-links {
-    justify-content: space-between;
-    width: 50%;
-}
+    .header-background {
+        background-color: #3161E0;
+        min-height: 400px;
+    }
 
-.header-links>a {
-    color: white;
-    text-decoration: none;
+    .header-links {
+        justify-content: space-between;
+        width: 50%;
+    }
 
-}
+    .header-links>a {
+        color: white;
+        text-decoration: none;
+
+    }
 
 
-.nav-row {
-    justify-content: space-between;
-    align-items: center;
-    background-color: green;
-    min-height: 100px;
-}
+    .nav-row {
+        justify-content: space-between;
+        align-items: center;
+        background-color: green;
+        min-height: 100px;
+    }
 
-/*header text section*/
+    /*header main section*/
 
-.header-main {
-    background-color: yellow;
-    text-align: center;
-    padding: var(--section-spacing-top-bottom);
+    .header-main {
+        background-color: yellow;
+        text-align: center;
+        padding: var(--section-spacing-top-bottom);
 
-}
+    }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    .header-main-text>p {
+        margin-bottom: 20px;
+    }
+
+
+    /*main*/
+
+
+    .section-background {
+        background-color: pink;
+        min-height: 500px;
+    }
+
+    .section-txt {
+        width: 35%;
+        padding-left: 40px;
+        margin-top: 40px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li>section {
+        padding: var(--section-spacing-top-bottom);
+        justify-content: space-between;
+
+    }
