@@ -1,0 +1,19 @@
+/*generics*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/*utility*/
+
+:root {
+    --blue: #3161E0;
+    --grey: #F6F6F6;
+}
